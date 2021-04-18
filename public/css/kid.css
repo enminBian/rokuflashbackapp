@@ -1,0 +1,163 @@
+.banner img{
+    width: 100%;
+}
+.wel{
+    padding: 20px 0;
+}
+.wel-top{
+    text-align: center;
+}
+.wel-top p{
+    line-height: 40px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #6c3c97;
+}
+.wel-bom{
+    text-align: center;
+}
+.wel-bom p{
+    line-height: 30px;
+    font-size: 20px;
+    color: #6c3c97;
+}
+.title{
+    padding-top: 30px;
+    width: 180px;
+    margin: 0 auto;
+    border-bottom: coral 2px solid;
+}
+.title p{
+    line-height: 60px;
+    font-size: 22px;
+    text-align: center;
+}
+.intro{
+    text-align: center;
+    padding: 20px 0;
+}
+.intro p{
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.movie-lists{
+    width: 900px;
+    margin: 0 auto;
+}
+.movie-lists a{
+    display: block;
+    width: 200px;
+    margin: 20px 50px;
+    float: left;
+}
+.movie-lists a img{
+    width: 200px;
+    height: 300px;
+}
+.movie-title{
+    text-align: center;
+    line-height: 50px;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+.movie-con{
+    text-align: center;
+    line-height: 25px;
+    color: #000;
+    font-size: 14px;
+}
+
+.contact{
+    clear: both;
+    background: #6c3c97;
+    padding: 30px 0;
+}
+.contact-title{
+    text-align: center;
+}
+.contact-title p{
+    line-height: 60px;
+    font-size: 30px;
+    color: #fff;
+}
+.contact-con{
+    text-align: center;
+    padding: 10px 0;
+}
+.contact-con p{
+    line-height: 30px;
+    font-size: 14px;
+    color: #fff;
+}
+.form{
+    width: 1000px;
+    margin: 0 auto;
+}
+.formper{
+    width: 1000px;
+    height: 50px;
+}
+.formperli{
+    width: 478px;
+    height: 40px;
+    margin-right: 20px;
+    float: left;
+    border-bottom: 1px solid #fff;;
+}
+.textcss{
+    width: 478px;
+    height: 40px;
+    background: none;
+    line-height: 40px;
+    outline: none;
+    border: none;
+    color: #fff;
+    text-indent: 20px;
+}
+.formperlia{
+    width: 976px;
+    height: 40px;
+    margin-right: 20px;
+    float: left;
+    border-bottom: 1px solid #fff;
+}
+.textcssa{
+    width: 976px;
+    height: 40px;
+    background: none;
+    line-height: 40px;
+    outline: none;
+    border: none;
+    color: #fff;
+    text-indent: 20px;
+}
+.formpermes{
+    width: 976px;
+    height: 150px;
+    border-bottom: 1px solid #fff;
+}
+.textcssb{
+    width: 976px;
+    height: 150px;
+    background: none;
+    line-height:30px;
+    outline: none;
+    border: none;
+    color: #fff;
+    text-indent: 20px;
+}
+.formpersub{
+    text-align: right;
+}
+.sub{
+    width: 120px;
+    height: 35px;
+    background-color: purple;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+    margin-top: 30px;
+}

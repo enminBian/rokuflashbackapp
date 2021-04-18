@@ -1,0 +1,32 @@
+
+.title{
+    padding-top: 30px;
+    width: 180px;
+    margin: 0 auto;
+}
+.title p{
+    line-height: 60px;
+    font-size: 22px;
+    text-align: center;
+}
+.intro{
+    text-align: center;
+    padding: 20px 0;
+}
+.intro p{
+    line-height: 25px;
+    font-size: 20px;
+}
+.movie-lists{
+    width: 900px;
+    margin: 0 auto;
+}
+.movie-lists a{
+    width: 200px;
+   margin: 20px 50px 10px 50px; 
+    float: left;
+}
+.movie-lists img{
+    width: 200px;
+    height: 300px;
+}

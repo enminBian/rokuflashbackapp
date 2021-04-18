@@ -1,0 +1,73 @@
+.banner img{
+    width: 100%;
+}
+.wel{
+    padding: 20px 0;
+}
+.wel-top{
+    text-align: center;
+}
+.wel-top p{
+    line-height: 40px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #6c3c97;
+}
+.wel-bom{
+    text-align: center;
+}
+.wel-bom p{
+    line-height: 30px;
+    font-size: 20px;
+    color: #6c3c97;
+}
+.title{
+    padding-top: 30px;
+    width: 180px;
+    margin: 0 auto;
+}
+.title p{
+    line-height: 60px;
+    font-size: 22px;
+    text-align: center;
+}
+.intro{
+    text-align: center;
+    padding: 20px 0;
+    width: 1000px;
+    margin: 0 auto;
+}
+.intro p{
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.movie-lists{
+    width: 1000px;
+    margin: 0 auto;
+}
+.movie-lists a{
+    display: block;
+    width: 200px;
+    margin: 30px 0;
+    float: left;
+}
+.movie-lists a img{
+    width: 200px;
+    height: 300px;
+}
+.movie-title{
+    text-align: center;
+    line-height: 50px;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+.movie-con{
+    text-align: center;
+    line-height: 25px;
+    color: #000;
+    font-size: 14px;
+}
+
+

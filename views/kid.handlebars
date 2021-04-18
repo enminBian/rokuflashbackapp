@@ -1,0 +1,74 @@
+<section id="app">
+  <div class="banner">
+    <p><img src="/images/banner.jpg" alt=""></p>
+  </div>
+  <div class="wel">
+    <div class="wel-top">
+      <p>WELCOME TO</p>
+    </div>
+    <div class="wel-bom">
+      <p>YOUR PERSINAL VIDEO PLACE</p>
+    </div>
+  </div>
+  <div class="title">
+    <p>OUR VIDEO</p>
+  </div>
+  <div class="intro">
+    <p>Unlimited movies,TV shows,and more.</p>
+    <p>Watching Anywhere,Enjoy Anytime</p>
+  </div>
+
+  <section class="movie-lists" v-for="movie in mov">
+    <a :href="'/movies/' + movie.movies_id + '/' + movie.movies_trailer">
+      <div class="movie-img">
+        <img class="movie-thumb" :src="'/images/' + movie.movies_cover" :alt="movie.movies_title">
+      </div>
+      <div class="movie-title">
+        <p>${movie.movies_title}</p>
+      </div>
+      <div class="movie-con">
+        <p>${movie.movies_storyline}</p>
+      </div>
+    </a>
+  </section>
+
+<div class="contact">
+  <div class="contact-title">
+    <p>CONTACT US</p>
+  </div>
+  <div class="contact-con">
+    <p>Creat Your own account to</p>
+    <p>watch more video</p>
+  </div>
+  <div class="form">
+    <div class="formper">
+      <div class="formperli">
+        <input type="text" placeholder="Name" class="textcss">
+      </div>
+      <div class="formperli">
+        <input type="text" placeholder="Category" class="textcss">
+      </div>
+    </div>
+    <div class="formper">
+      <div class="formperli">
+        <input type="text" placeholder="Phone" class="textcss">
+      </div>
+      <div class="formperli">
+        <input type="text" placeholder="City" class="textcss">
+      </div>
+    </div>
+    <div class="formper">
+      <div class="formperlia">
+        <input type="text" placeholder="E-mail" class="textcssa">
+      </div>
+    </div>
+    <div class="formpermes">
+      <textarea name="" id="" placeholder="Message" class="textcssb"></textarea>
+    </div>
+    <div class="formpersub">
+      <input type="submit" value="Contact us" class="sub">
+    </div>
+  </div>
+</div>
+
+</section>

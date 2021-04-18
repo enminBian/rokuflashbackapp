@@ -1,0 +1,28 @@
+<section id="app">
+  <div class="banner">
+    <p><img src="/images/banner.jpg" alt=""></p>
+  </div>
+  <div class="wel">
+    
+  </div>
+  <div class="title">
+    <p>OUR GALLERY</p>
+  </div>
+  <div class="intro">
+    <p>Lorem ipsum dolor sit amet,consectetur elit,sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo conse.
+    </p>
+  </div>
+
+  <section class="movie-lists" v-for="movie in mov">
+    <a :href="'/movies/' + movie.movies_id + '/' + movie.movies_trailer">
+      <div class="movie-img">
+        <img class="movie-thumb" :src="'/images/' + movie.movies_cover" :alt="movie.movies_title">
+      </div>
+    </a>
+  </section>
+
+
+
+</section>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>{{ title }}</title>
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	{{#if kidpage}}
+	<link rel="stylesheet" type="text/css" href="/css/kid.css">
+	{{/if}}
+	{{#if homepage}}
+	<link rel="stylesheet" type="text/css" href="/css/main.css">
+	{{/if}}
+	{{#if mainpage}}
+	<link rel="stylesheet" type="text/css" href="/css/home.css">
+	{{/if}}
+	{{#if videopage}}
+	<link rel="stylesheet" type="text/css" href="/css/video.css">
+	{{/if}}
+	<!-- <link rel="stylesheet" type="text/css" href="/css/style.css"> -->
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vue@2.5.15/dist/vue.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
+</head>
+{{#if homepage}}
+<body>
+{{/if}}
+{{#if kidpage}}
+<body>
+{{/if}}
+{{#if mainpage}}
+<body>
+{{/if}}
+{{#if videopage}}
+<body id="videobody">
+{{/if}}
+<!-- <body> -->
+	
+	<header>
+		<div class="header">
+			<div class="back">
+				<img src="/images/roku.svg" alt="Roku logo" height="30px"><span>FlashBack</span>
+			</div>
+			<div class="logo">
+				<img src="/images/roku.svg" alt="Roku logo" height="50px">
+			</div>
+			<div class="user">
+				<a href="/users"><img src="/images/user.jpg" alt="user" height="40"></a>
+			</div>
+		</div>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="/">HOME</a></li>
+			<li><a href="/kid">KID</a></li>
+			<li><a href="/home">main</a></li>
+		</ul>
+	</nav>
+
+	<main>
+		{{{ body }}}
+	</main>
+
+	<footer>
+		<div class="foot-consider">
+			<p class="copy">
+				&copy; 2018 The Awesome Company, Inc
+			</p>
+
+			<ul>
+				<li>
+					<i class="fab fa-facebook"></i>
+				</li>
+				<li>
+					<i class="fab fa-twitter-square"></i>
+				</li>
+				<li>
+					<i class="fab fa-google-plus-square"></i>
+				</li>
+				<li>
+					<i class="fab fa-instagram"></i>
+				</li>
+			</ul>
+		</div>
+		
+	</footer>
+  <script>
+    var appData = {
+      movies : {{{ data }}}
+    }
+  </script>
+	{{#if mainpage}}
+  	<script src="/js/home.js"></script>
+	{{/if}}
+	{{#if homepage}}
+  	<script src="/js/main.js"></script>
+	{{/if}}
+	{{#if videopage}}
+		<script src="/js/videoVM.js"></script>
+	{{/if}}
+
+	{{#if kidpage}}
+		<script src="/js/kid.js"></script>
+	{{/if}}
+
+	{{#if userpage}}
+		<script src="/js/users.js"></script>
+	{{/if}}
+
+</body>
+</html>

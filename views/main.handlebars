@@ -1,0 +1,70 @@
+<section id="app">
+
+<div class="title">
+  <p>OUR VIDEO</p>
+</div>
+<div class="intro">
+  <p>Unlimited movies,TV shows,and more.</p>
+  <p>Watching Anywhere,Enjoy Anytime</p>
+</div>
+
+  <!-- load in all of the thumnails for each genre -->
+  <section class="movie-lists" v-for="movie in mov">
+    <a :href="'/movies/' + movie.movies_id + '/' + movie.movies_trailer">
+      <img class="movie-thumb" :src="'/images/' + movie.movies_cover" :alt="movie.movies_title">
+    </a>
+  </section>
+
+</section>
+
+
+<div class="navbom">
+  <div class="nav-consider">
+    <div class="nav-per">
+      <div class="nav-title">
+        <p>CONTENT</p>
+      </div>
+      <div class="nav-con">
+        <p><a href="">Lorem ipsum</a></p>
+        <p><a href="">Dolor sit</a></p>
+      </div>
+    </div>
+    <div class="nav-per">
+      <div class="nav-title">
+        <p>INFORMATION</p>
+      </div>
+      <div class="nav-con">
+        <p><a href="">Lorem ipsum</a></p>
+        <p><a href="">Onsectetur adipisicing</a></p>
+      </div>
+    </div>
+    <div class="nav-per">
+      <div class="nav-title">
+        <p>LEGAL</p>
+      </div>
+      <div class="nav-con">
+        <p><a href="">Adipisicing elit</a></p>
+        <p><a href="">Sed do eiusmod</a></p>
+        <p><a href="">Tempor incidi</a></p>
+      </div>
+    </div>
+    <div class="nav-per">
+      <div class="nav-title">
+        <p>HELP</p>
+      </div>
+      <div class="nav-con">
+        <p><a href="">Lorem ipsum</a></p>
+        <p><a href="">Onsectetur adipisicing</a></p>
+      </div>
+    </div>
+    <div class="nav-per">
+      <div class="phone">
+        <p>3-6000-0000-6000-000-0000</p>
+      </div>
+      <div class="location">
+        <p>67700 Dagenham St England,GB</p>
+      </div>
+    </div>
+  </div>
+</div>
+
